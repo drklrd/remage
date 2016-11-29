@@ -1,13 +1,13 @@
 # Remage
 Get Image with resizing options.
 
-# Installion 
+# Installation 
 	npm install remage
 
 # Usage
 	
 	In node controller , add a route to handle the file request
-		var remage = require('./remage');
+		var remage = require('remage');
 		app.get('/testimage',remage.process);
 
 	In your view , attribute the src as 
