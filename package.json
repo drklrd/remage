@@ -1,0 +1,28 @@
+{
+  "name": "remage",
+  "version": "1.0.0",
+  "description": "Image Resizing Node Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remage",
+    "image",
+    "resize",
+    "resizing",
+    "image-resize",
+    "image-resizing"
+  ],
+  "author": "drklrd",
+  "license": "ISC",
+  "dependencies": {
+    "image-size": "^0.5.0",
+    "request": "^2.79.0",
+    "sharp": "^0.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drklrd/remage.git"
+  }
+}
